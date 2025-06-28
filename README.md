@@ -42,21 +42,26 @@ road, candle, light, spice, ride, train, boat
 
 ## 🛠️ Setup Instructions
 
-1️⃣ Clone the Repository
+### 1. Clone the Repo
 
-git clone https://github.com/your-username/metaphor-detection-distilbert.git
-cd metaphor-detection-distilbert
+```bash
+git clone https://github.com/magantianirudh/Metaphor-Detection-using-NLP.git
+cd Metaphor-Detection-using-NLP
+
 
 2️⃣ Create Environment & Install Dependencies
 
+```bash
 pip install -r requirements.txt
 
 3️⃣ Train the Model
 
+```bash
 python train.py --data_path path/to/your_dataset.csv
 
 4️⃣ Evaluate & Save Results
 
+```bash
 python evaluate.py --model_path saved_model/ --test_data path/to/test.csv
 
 ## 📈 Evaluation Metrics
