@@ -36,12 +36,6 @@ The dataset used in this project includes the following columns:
 | `metaphorID`  | An identifier mapped to a metaphor word (e.g., road, candle, light, etc.)   |
 | `label_boolean` | Binary label (1 = Metaphorical, 0 = Literal)                             |
 
-**Example:**
-```csv
-text,metaphorID,label_boolean
-"The road to success is paved with failures.",road,1
-"He walked along the dirt road for miles.",road,0
-
 ## 📚 Supported Metaphor Words
 
 road, candle, light, spice, ride, train, boat
@@ -77,3 +71,9 @@ The performance of the model is measured using:
 - F1-Score
 
 These metrics help in assessing how well the model distinguishes between literal and metaphorical usage in diverse contexts.
+
+**Example:**
+```csv
+text,metaphorID,label_boolean
+"The road to success is paved with failures.",road,1
+"He walked along the dirt road for miles.",road,0
